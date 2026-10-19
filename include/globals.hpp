@@ -1,11 +1,17 @@
 #pragma once
 #include "main.h"
 #include "lemlib/api.hpp"
+#include "pros/motor_group.hpp"
+
+extern int AutonIndex;
 
 extern pros::Controller master;
 
 extern pros::MotorGroup left_mg;
 extern pros::MotorGroup right_mg;
+extern pros::MotorGroup lift;
+
+extern pros::adi::Pneumatics claw;
 
 extern lemlib::Drivetrain drivetrain;
 
