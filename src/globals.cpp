@@ -7,7 +7,7 @@ int AutonIndex = 0;
 
 pros::Controller master(pros::E_CONTROLLER_MASTER);
 pros::MotorGroup left_mg({12, 13}, pros::MotorGearset::green);// Creates a motor group with forwards ports 0 0 0 
-pros::MotorGroup right_mg({2, 3}, pros::MotorGearset::green);// Creates a motor group with forwards ports 0 0 0
+pros::MotorGroup right_mg({-2, -3}, pros::MotorGearset::green);// Creates a motor group with forwards ports 0 0 0
 pros::MotorGroup lift({-1, 11}, pros::MotorGearset::green);
 
 pros::adi::Pneumatics claws('A', false); 
