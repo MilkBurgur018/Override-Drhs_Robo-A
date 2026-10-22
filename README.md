@@ -12,3 +12,15 @@ Click on the PROS Icon on the left and then press Build and upload whilst the co
 # For Acsess...
 For editing perms and acsess to repository, ask me @milkburgur_018 on Discord to get collaborator perms. YOU WILL NEED A GITHUB ACCT TO DO THIS.
 
+# Current Controls
+
+A for claw toggle
+
+Up for increase Auton Index
+Down for decrease Auton Index
+
+L1 for Lift down
+L20 for lift up
+
+Split arcade with 75% throttle priority (i think)
+

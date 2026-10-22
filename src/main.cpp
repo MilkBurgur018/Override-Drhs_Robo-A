@@ -32,6 +32,10 @@ void autonomous() {
 	switch (AutonIndex) {
 		case 0:
 			kP_kD_Calibration();
+		case 1:
+			index_1();
+		case 2:
+			index_2();
 	}
 }
 
